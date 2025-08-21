@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">appformulario</string>
+
+    <!-- Main -->
+    <string name="go_user_form">Formulario de Usuario</string>
+    <string name="go_product_form">Formulario de Producto</string>
+
+    <!-- Usuario -->
+    <string name="user_form_title">Registro de Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="gender">Género</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="other">Otro</string>
+    <string name="accept_terms">Acepto los términos y condiciones</string>
+    <string name="save">Guardar</string>
+
+    <!-- Producto -->
+    <string name="product_form_title">Registro de Producto</string>
+    <string name="product_name">Nombre del producto</string>
+    <string name="price">Precio</string>
+    <string name="category">Categoría</string>
+    <string name="available">Disponible</string>
+
+    <!-- Mensajes -->
+    <string name="msg_required">Campo obligatorio</string>
+    <string name="msg_email_invalid">Correo no válido</string>
+    <string name="msg_terms_required">Debes aceptar los términos</string>
+    <string name="msg_price_invalid">Precio no válido</string>
+    <string name="msg_saved">Guardado correctamente</string>
+</resources>

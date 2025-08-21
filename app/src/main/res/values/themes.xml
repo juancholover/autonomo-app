@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Appformulario" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Puedes forzar el esquema de color si quieres -->
+        <item name="colorPrimary">@color/md_seed</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+
+        <!-- Tipografía por defecto -->
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.App.Body</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button.Primary</item>
+    </style>
+
+    <!-- Estilos personalizados -->
+    <style name="Widget.App.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="TextAppearance.App.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.App.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
